@@ -15,4 +15,4 @@ spec:
   values:
     image: gcavalcante8808/gitopslearning
     tag: dev-1
-    replicaCount: 1
+    replicaCount: 2
