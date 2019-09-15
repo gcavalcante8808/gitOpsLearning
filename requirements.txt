@@ -1,0 +1,4 @@
+falcon
+json-logging-py
+requests
+werkzeug

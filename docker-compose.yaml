@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  app:
+    image: app
+    build:
+      context: .
+    volumes:
+      - ./gitops_learning:/usr/src
+    ports:
+      - 8000:8000
