@@ -9,3 +9,10 @@ flux-setup:
     --set git.url=git@github.com:gcavalcante8808/gitOpsLearning \
     --namespace gitops-flux \
     fluxcd/flux
+
+generate-flux-identity:
+    fluxctl identity --k8s-fwd-ns gitops-flux
+
+insert-flux-public-key-as-a-deploy-key-for-repo:
+    echo "TODO"
+    exit 1
