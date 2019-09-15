@@ -13,7 +13,6 @@ spec:
     path: charts/gitopslearning
     ref: master
   values:
-    image:
-      repository: gcavalcante8808/gitopslearning
-      tag:dev-1
+    image: gcavalcante8808/gitopslearning
+    tag: dev-1
     replicaCount: 2
