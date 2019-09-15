@@ -10,6 +10,9 @@ flux-setup:
     --namespace gitops-flux \
     fluxcd/flux
 
+flux-sync:
+    fluxctl sync --k8s-fwd-ns gitops-flux
+
 generate-flux-identity:
     fluxctl identity --k8s-fwd-ns gitops-flux
 
